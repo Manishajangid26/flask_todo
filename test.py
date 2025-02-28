@@ -22,6 +22,18 @@ def Good():
 
 
 
+
+
+@app.route("/profile/<path:a>")
+def path(a):
+    return "Hello"  
+
+
+
 @app.route("/profile/<user>")
 def user_name(user):
     return f"Hello,{user}"
+
+
+    
+  
